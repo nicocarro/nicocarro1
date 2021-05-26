@@ -1,0 +1,424 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyecto JS</title>
+
+	<meta charset="utf-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script src="https://kit.fontawesome.com/6c512a8d97.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="proyectonicocarro.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+
+
+<div class="wrapper">
+	<div id="container_barra" class="container" >
+					<!--Barra lateral-->
+		<div id="content" class="barra_lateral">
+			
+
+
+			<div id="navv" >	
+								<div id="buscador">
+				    			
+				    			<input type="text" name="query" id="query" placeholder="Search" />
+								<i class="fas fa-search" id="lupita"></i>
+								<div class="container_buscador"></div>
+
+				            </div>
+				    	<div class="sidebar_header">
+
+				            <h3 class="titulo_barra">Menu</h3>
+				            <hr id="linea_naranja_chica" size="6" style="color: tomato; opacity: 100%; width: 18%;">
+				        </div>
+				       	<div id="contenido_barra">
+					        <ul class="list-unstyled components">
+					            <li class="active">
+					                <a href="#">HOMEPAGE</a>
+					            </li>
+					            <hr>
+					            <li class="active">
+					                <a href="#">GENERIC</a>
+					            </li>
+					            <hr>
+					            <li class="active">
+					                <a href="#">ELEMENTS</a>
+					            </li>
+					            <hr>
+					        <ul class="list-unstyled components">
+					            <li class="active">
+					                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">SUBMENU</a>
+					                <hr>
+					                <ul class="collapse list-unstyled" id="homeSubmenu">
+					                    <li>
+					                        <a href="#">Submenu 1</a>
+					                    </li>
+					                    <li>
+					                        <a href="#">Submenu 2</a>
+					                    </li>
+					                    <li>
+					                        <a href="#">Submenu 3</a>
+					                    </li>
+					                    <hr> 
+					                </ul>
+					            </li>
+					        </ul>
+					        	<li class="active">
+					                <a href="#">ETIAM DOLORE</a>
+					            </li>  
+					            <hr>  
+					            <li>
+					                <a href="#">ADIPISCING</a>
+					            </li>
+					            <hr>
+					            <li>
+					                <a href="#anotherSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">ANOTHER SUBMENU</a>
+					                <ul class="collapse list-unstyled" id="anotherSubmenu">
+					                    <li>
+					                        <a href="#">Another submenu 1</a>
+					                    </li>
+					                    <li>
+					                        <a href="#">Another submenu 2</a>	
+					                    </li>
+					                    <li>
+					                        <a href="#">Another submenu 3</a>
+					                    </li>
+					                </ul>
+					            </li>
+					            <hr>
+					            <li>
+					                <a href="#">MAXIMUS ERAT</a>
+					            </li>
+					            <hr>
+					            <li>
+					                <a href="#">SAPIEN MAURIS</a>
+					            </li>
+					            <hr>
+					            <li>
+					                <a href="#">AMET LACINIA</a>
+					            </li>
+					            <hr>
+					        </ul>
+					    </div>
+				   	<div id="segunda_parte_barra">
+				    	<header><h2>Ante interdum</h2></header>
+				    	<hr id="linea_naranja_chica" class="lineaaa" size="6" style="color: tomato; opacity: 100%; width: 48%">
+				    	<div class="articles">
+				    		<article id="osoo">
+				    			<img src="imagenes/oso.jpg" alt="" class="imagenes_barra" />
+				    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    			tempor incididunt ut labore et dolore magna aliqua.</p>
+				    		</article>
+				    		<hr>
+				    		<article>
+				    			<img src="imagenes/montaña.jpg" alt="" class="imagenes_barra" />
+				    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    			tempor incididunt ut labore et dolore magna aliqua.</p>
+				    		</article>
+				    		<hr>
+				    		<article>
+				    			<img src="imagenes/laptop.jpg" alt="" class="imagenes_barra" />
+				    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    			tempor incididunt ut labore et dolore magna aliqua.</p>
+				    		</article>
+				    		<div class="botn_barra">
+				    			<button type="button" class="btn btn-outline-danger">MORE</button>
+				    		</div>
+				    		<hr>
+				    	</div>
+				    </div>
+					<div id="extras">
+					    <a href="https://formulario-nicocarro.netlify.app/" target="_blank">Contacto</a><br>
+					    <a href="terminosycondiciones.html" target="_blank">Terminos y condiciones</a>
+				    </div>
+			</div>
+
+	</div>
+	<div id="container_resto" class="container">
+					
+
+<span><a href="#"><i class="fas fa-bars" id="boton_abrir" class="btn btn-primary" role= "button" onclick="animate()"></i></a></span>
+
+		<div class="header">
+			<p class="titulo_header"><strong>Editorial</strong> by HTML5 UP</p>
+			<ul class="logos_redes">
+				<li><span><i class="fab fa-medium-m"></i></span></li>
+				<li><span><i class="fab fa-instagram-square"></i></span></li>
+				<li><span><i class="fab fa-snapchat-ghost"></i></span></li>
+				<li><span><i class="fab fa-facebook-square"></i></span></li>
+				<li><span><i class="fab fa-twitter"></i></span></li>
+			</ul>
+		</div>
+
+
+			<hr id="linea_naranja" size="6" style="color: tomato; opacity: 100%;">
+
+
+
+
+
+	<!--Primer acticulo-->
+
+	<div id="contenedor_articulo">
+		<div class="A">
+			<header>
+				<h1><strong>Hi, I’m Editorial<br />
+					by HTML5 UP</strong></h1>
+				<p>A FREE AND FULLY RESPONSIVE SITE TEMPLATE</p>
+			</header>
+				<p class="textoo">Aenean ornare velit lacus, ac varius enim ullamcorper eu.Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris.Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p>
+				<button type="button" class="btn btn-outline-danger" style="font-size: 1em; color: tomato;">LEARN MORE</button>
+		</div>	
+
+		<div class="B">
+			<img src="imagenes/brazostatuadoschica.jpg" alt="Nature" class="fotoo" class="responsive" style="border-radius: 8px;" />
+		</div>
+	</div>
+
+
+
+				<hr size="4">
+
+
+				<!--Contenido otros-->
+
+			<section id="otros">
+				<h2 class="titulo_otros">Erat lacina</h2>
+				<hr id="linea_naranja" size="6" style="color: tomato; opacity: 100%; width: 25%;">
+				<div class="contenedor_otros">
+					<div class="row">
+					    <div class="col">
+					    	<div class="otro_primero">
+						    	<span style="font-size: 3em; color: tomato">
+						    		<i class="far fa-gem" class="icono_primero"></i>
+						    	</span>
+							     	<div class="texto_primero">
+								     	<h3>Portior</h3>
+								        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								        consequat.</p>
+								    </div>
+							</div>	    
+					    </div>
+					    <div class="col">
+					    	<div class="otro_segundo">
+							    <span style="font-size: 3em; color: tomato">
+							    	<i class="fas fa-paper-plane" class="icono_segundo"></i>
+							    </span>
+							    	<div class="texto_segundo">
+							    		<h3>Sapien</h3>
+							        	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							        	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							        	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							        	consequat.</p>
+						    		</div>
+						    </div>
+					    </div>
+					</div>
+					<div class="row">
+					    <div class="col">
+					    	<div class="otro_tercero">
+						    	<span style="font-size:3em; color: tomato">
+						    		<i class="fas fa-rocket" class="icono_tercero"></i>
+						    	</span>
+						    		<div class="texto_tercero">
+								   		<h3>Quam</h3>
+								        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								        consequat.</p>
+								    </div>
+						    </div>
+					    </div>
+					    <div class="col">
+					    	<div class="otro_cuarto">
+						    	<span style="font-size: 3em;color: tomato">
+						    		<i class="fas fa-signal" class="icono_cuarto"></i>
+						    	</span>
+						    		<div class="texto_cuarto">
+								    	<h3>Sed</h3>
+								        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								        consequat.</p>
+								    </div>
+						    </div>
+					    </div>
+					</div>
+				</div>
+			</section>
+
+
+
+					<hr size="4">
+
+
+
+				<!--Contenido galeria-->
+
+			<section id="galeria">
+				<div class="contenedor_galeria">
+					<div class="contenido_galeria">
+						<div class="row">
+							<h2 class="titulo_galeria">Ipsum sed dolor</h2>
+							<hr id="linea_naranja" size="6" style="color: tomato; opacity: 100%; width: 35%; position: fixed; z-index: 2000;">
+						    <div class="col" id="primero_arriba">
+						      	<span><img src="imagenes/mujersombrero.jpg" class="imagenes_galeria"></span>
+						    	<h4>Interdum</h4>
+						        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						        tempor incididunt ut labore et dolore magna aliqua.</p>
+						        <button type="button" class="btn btn-outline-danger" style="font-size: 1em; color: tomato;">MORE</button>
+						    </div>
+						    <div class="col" id="segundo_arriba">
+						    	<span><img src="imagenes/mesatrabajo.jpg" class="imagenes_galeria"></span>
+						     	<h4>Nulla</h4>
+						      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						      	tempor incididunt ut labore et dolore magna aliqua.</p>
+						      <button type="button" class="btn btn-outline-danger" style="font-size: 1em; color: tomato;">MORE</button>
+						    </div>
+						    <div class="col" id="tercero_arriba">
+						    	<span><img src="imagenes/camioneta.jpg" class="imagenes_galeria"></span>
+						    	<h4>Tempus</h4>
+						    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						    	tempor incididunt ut labore et dolore magna aliqua.</p>
+						      <button type="button" class="btn btn-outline-danger" style="font-size: 1em; color: tomato;">MORE</button>
+						    </div>
+						</div>
+					<hr size="3">
+						<div class="row">
+						    <div class="col" id="primero_abajo">
+						    	<span><img src="imagenes/meditando.jpg" class="imagenes_galeria"></span>
+						    	<h4>Sed</h4>
+						    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						    	tempor incididunt ut labore et dolore magna aliqua.</p>
+						      <button type="button" class="btn btn-outline-danger" style="font-size: 1em; color: tomato;">MORE</button>
+						    </div>
+						    <div class="col" id="segundo_abajo">
+						    	<span><img src="imagenes/hombresombrero.jpg" class="imagenes_galeria"></span>
+						    	<h4>Feugiat</h4>
+						    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						    	tempor incididunt ut labore et dolore magna aliqua.</p>
+						      <button type="button" class="btn btn-outline-danger" style="font-size: 1em; color: tomato;">MORE</button>
+						    </div>
+						    <div class="col" id="tercero_abajo">
+						    	<span><img src="imagenes/camara.jpg" class="imagenes_galeria"></span>
+						    	<h4>Amet</h4>
+						    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	
+						    	tempor incididunt ut labore et dolore magna aliqua.</p>
+						      <button type="button" class="btn btn-outline-danger" style="font-size: 1em; color: tomato;">MORE</button>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+	</div>
+
+		<div class="modal" tabindex="-1" role="dialog" id="modall">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Formulario</h5>
+      </div>
+      <div class="modal-body">
+        <div id="mc_embed_signup">
+			<form action="https://gmail.us6.list-manage.com/subscribe/post?u=c9c4c3cf73550b26b59d26b04&amp;id=6b08fa4909" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			    <div id="mc_embed_signup_scroll">
+				<h2>Subscribe</h2>
+			<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+			<div class="mc-field-group">
+				<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+			</label>
+				<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+			</div>
+			<div class="mc-field-group">
+				<label for="mce-FNAME">First Name </label>
+				<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+			</div>
+			<div class="mc-field-group">
+				<label for="mce-LNAME">Last Name </label>
+				<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+			</div>
+			<div class="mc-field-group size1of2">
+				<label for="mce-BIRTHDAY-month">Birthday </label>
+				<div class="datefield">
+					<span class="subfield monthfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"></span> / 
+					<span class="subfield dayfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"></span> 
+					<span class="small-meta nowrap">( mm / dd )</span>
+				</div>
+			</div>	<div id="mce-responses" class="clear">
+					<div class="response" id="mce-error-response" style="display:none"></div>
+					<div class="response" id="mce-success-response" style="display:none"></div>
+				</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+			    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c9c4c3cf73550b26b59d26b04_6b08fa4909" tabindex="-1" value=""></div>
+			    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+			    </div>
+			</form>
+		</div>
+							      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal" class="cerrar" id="boton_cerrar">Close</button>
+					      </div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+	<!-- Modal 50%-->
+		<script>
+			let reached = false;
+		window.addEventListener('scroll', () => {
+		    const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+		    const scrolled = window.scrollY;
+
+		    if(!reached && Math.ceil(scrolled) >= Math.ceil(scrollable / 2)) {
+		        reached = true;
+		        $('#modall').css('display','block');;
+	
+		    	}
+			});
+		</script>
+
+		<script>
+			$('#boton_cerrar').click(function(){
+			$('#modall').hide()
+			});
+
+		</script>
+
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+			<script>
+				$(document).ready(function() {
+
+					$('#boton_abrir').on('click', function() {
+						$('#navv').animate({width: 'toggle'});
+					});	
+				});	
+			</script>
+
+
+    <!-- Popper.JS -->
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- Mailchimp -->
+		<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+
+</body>
+</html>
